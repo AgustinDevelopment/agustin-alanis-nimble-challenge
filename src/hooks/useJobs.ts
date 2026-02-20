@@ -63,6 +63,7 @@ export function useJobs(email: string) {
         uuid: candidate.uuid,
         jobId,
         candidateId: candidate.candidateId,
+        applicationId: candidate.applicationId,
         repoUrl,
       });
     } catch (err) {
